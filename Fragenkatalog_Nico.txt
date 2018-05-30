@@ -2,6 +2,7 @@ Fragenkatalog
 EDB 4 | Kommunikationssysteme
 
 1 Nennen Sie drei Sicherheitsziele, welche in beliebigen Kommunikationssystemen verfolgt werden sollten. Erklären Sie diese kurz.
+Daten integrität,
 
 2 Nennen Sie zwei Angriffsarten auf ein Kommunikationssystem. Nennen Sie das Sicherheitsziel, welches durch diese Angriffe verletzt wird.
 
