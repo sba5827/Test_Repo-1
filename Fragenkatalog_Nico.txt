@@ -1,0 +1,145 @@
+Fragenkatalog
+EDB 4 | Kommunikationssysteme
+
+1 Nennen Sie drei Sicherheitsziele, welche in beliebigen Kommunikationssystemen verfolgt werden sollten. Erklären Sie diese kurz.
+
+2 Nennen Sie zwei Angriffsarten auf ein Kommunikationssystem. Nennen Sie das Sicherheitsziel, welches durch diese Angriffe verletzt wird.
+
+3 Nennen Sie ein Aspekt, welcher beachtet werden muss, wenn heterogene Systeme miteinander kommunizieren. Erklären Sie diese.
+
+4 Nennen Sie eine Möglichkeit wie das Sicherheitsziel der „Vertraulichkeit“ möglichst sicher erreicht wird.
+
+5 Nennen Sie die grundlegende Motivation für das ISO/OSI-Modell.
+
+6 Nennen Sie alle Schichten des ISO/OSI-Modells, beginnend bei Schicht 1. Beschreiben Sie in Stichpunkten die jeweiligen Verantwortlichkeiten.
+
+7 Was versteht man unter Datenkapselung einer Schicht im ISO/OSI-Modell?
+
+8 Designen Sie eine einfache Paketstruktur für den Layer 5 des ISO/OSI-Modells. Das Kommunikationssystem soll insbesondere gegen Replay-Attacken geschützt sein. Ein Teilnehmer des Kommunikationssystems kommuniziert im Durchschnitt mit 30000 anderen Teilnehmern gleichzeitig über mehrere Minuten hinweg.
+
+9 Welcher Portbereich kann durch den IP-Stack abgedeckt werden?
+
+10 Nennen Sie den Standardport für HTTP, FTP und SSH.
+
+11 Nennen Sie zwei Transportprotokolle auf Basis des IP-Stacks. Für was stehen die Abkürzungen? Nennen Sie drei konkrete Unterschiede zwischen diesen beiden Protokollen.
+
+12 Warum wird bei TCP/IP ein Three-way-handshake beim Verbindungsaufbau benötigt.
+
+13  Notieren Sie eine beliebige IPv4-Adresse.
+
+14 Notieren Sie die IPv4-Adresse für das Loopback-Interface.
+
+15 Mit wieviel Byte wird eine IPv4-Adresse abgebildet.
+
+1 Notieren Sie die IPv4-Adresse 192.168.0.1 mit der Subnetzmaske 255.255.255.0 in der CIDR-Notation.
+
+2 Notieren Sie eine beliebige IPv6-Adresse.
+
+3 Notieren Sie die IPv6-Adresse für das Loopback-Interface.
+
+4 Mit wieviel Byte wird eine IPv6-Adresse abgebildet.
+
+5 Notieren Sie die IPv4-Adresse 192.168.0.1 mit der Subnetzmaske 255.255.255.0 in der CIDR-Notation.
+
+6 Mit welchem Algorithmus wird in IP-Netzwerken die Pfadselektion für den schnellsten/billigsten Pfad berechnet?
+
+7 Mit welchem Protokoll werden Diagnosenachrichten in einem IP-Netzwerk üblicherweise versendet?
+
+8 Nennen Sie ein Standard-Kommandozeilentool (Linux oder Windows), welches die Erreichbarkeit eines Hosts verifizieren kann.
+
+9 Für was wird DHCP verwendet?
+
+10 Nennen Sie den grundlegenden Ablauf einer DHCP-Anfrage.
+
+11 Notieren Sie eine beliebige MAC-Adresse.
+
+12 Mit wieviel Byte wird eine MAC-Adresse abgebildet?
+
+13 Kann auf Windows-Geräten die MAC-Adresse geändert werden?
+
+14 Nennen Sie ein Standard-Kommandozeilentool (Linux oder Windows), welches die Ausgabe der MAC-Adressen erlaubt.
+
+15 Mit welcher Übertragungsrate arbeitet 10BASE-T, 100BASE-T bzw. 1000BASE-T. Wie unterscheiden sich grob die jeweiligen Pinbelegungen?
+
+1 Das Protokoll IEEE 802.3 verwendet auf Layer 1 bei der Datenübertragung eine Präambel. Für was wird die Präambel benötigt?
+
+2 Welches Zugriffsverfahren auf das Übertragungsmedium verwendet IEEE 802.3?
+
+3 Für was steht die Abkürzung CSMA/CD? Erklären Sie grob die Begriffszusammensetzung.
+
+4 Mit welchem Algorithmus erfolgt bei IEEE 802.3 die Kollisionsauflösung?
+
+5 Beschreiben Sie grob oder als Pseudo-Code das Verfahren CSMA/CD mit JAM-Signal und Backoff-Kollisionsauflösung.
+
+6 Nennen Sie Bruttoübertragungsrate von IEEE 802.11b und IEEE 802.11g.
+
+7 Ein WLAN-Netz wird üblicherweise über eine Zeichenkette identifiziert. Wie lautet der Fachbegriff für diese Zeichenkette?
+
+8 Welches Zugriffsverfahren auf das Übertragungsmedium verwendet IEEE 802.11?
+
+9 Für was steht die Abkürzung CSMA/CA? Erklären Sie grob die Begriffszusammensetzung.
+
+10 Erläutern Sie grob die Kollisionsvermeidung in IEEE 802.11.
+
+11 Nennen Sie drei Feldbus-Protokolle.
+
+12 Welche Eigenschaften sollten Feldbus-Protokolle üblicherweise erfüllen? Würden Sie behaupten, dass das Sicherheitsziel der Vertraulichkeit für Feldbus-Protokolle essentiell ist?
+
+13 Nennen Sie zwei Varianten von Modbus. Wie unterscheidet sich das Übertragungsverfahren dieser Varianten?
+
+14 Wie werden die Geräte in einem Modbus-Aufbau adressiert?
+
+15 Können Slaves in einem Modbus-Aufbau den Kommunikationsaufbau zum Master initiieren? Begründen Sie die Antwort.
+
+1 Wie viele Geräte können in einem Modbus-Aufbau maximal koexistieren. Begründen Sie die Antwort.
+
+2 Nennen Sie drei Objekttypen, welche von Modbus definiert werden. Beschreiben Sie deren Eigenschaften.
+
+3 Wie können mit Modbus 32-Bit-Werte abgebildet werden? Auf was muss geachtet werden?
+
+4 Wie wird in Modbus das Sicherheitsziel der Datenintegrität gewährleistet?
+
+5 Was sind die wesentlichen Vorteile von Modbus RTU gegenüber Modbus ASCII? Was wäre ein Grund um Modbus ASCII gegenüber Modbus RTU vorzuziehen?
+
+6 Welche Schichten des ISO/OSI-Modells werden durch den ISO Standard 11898 (CAN) spezifiziert?
+
+7 Beschreiben Sie den Ablauf der Bus-Arbitrierung anhand des Message Identifier in einem CAN-Aufbau.
+
+8 Welche Identifier-Formate werden bei CAN unterschieden? Wie lautet die Kurzbezeichnung dieser? Wie wird Kompatibilität dieser gewährleistet?
+
+9 Welches Zugriffsverfahren wird bei CAN verwendet?
+
+10 Was bedeutet die Abkürzung CSMA/CR? Erklären Sie grob die Begriffszusammensetzung.
+
+11 Wie funktioniert die Kollisionsauflösung bei CAN?
+
+12 Nennen Sie zwei Applikationsprotokolle welche auf CAN Aufbauen.
+
+13 Welche Objekttypen werden bei CANOpen unterschieden?
+
+14 Die Bus-Arbitrierung bei CANOpen passiert implizit auf Basis des Function Code. Warum?
+
+15 Was wird über das CANOpen-Objektverzeichnis definiert?
+
+1 Wie wird das CANOpen-Objektverzeichnis bereitgestellt?
+
+2 Was ist die primäre Motivation für den in IEEE 802.15.4 definierten Standard?
+
+3 Welche Schichten des ISO/OSI-Modells werden im Standard IEEE 802.15.4 definiert?
+
+4 Welche Topologien lassen sich mit IEEE 802.15.4 umsetzen? Nennen Sie die Teilnehmer und Voraussetzungen für diese Topologien.
+
+5 Welche Frequenzbänder sind in IEEE 802.15.4 definiert?
+
+6 Erläutern Sie den Slotted Mode im Standard IEEE 802.15.4. Wie wird hier gewährleistet, dass wichtige Nachrichten garantiert gesendet werden können?
+
+7 Auf welchem Standard basiert ZigBee?
+
+8 Welche Schichten des ISO/OSI-Modells setzt ZigBee um?
+
+9 Nennen Sie die in ZigBee definierten Gerätetypen.
+
+10 Was sind die Einsatzgebiete von ZigBee?
+
+11 Wie können mittels ZigBee Netze aufgebaut werden, die größer als die eigentliche Funkreichweite von IEEE 802.15.4 sind?
+
